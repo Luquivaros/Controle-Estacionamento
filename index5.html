@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>CADASTRO</h1>
+        <div class="form-container" style="margin-top: -5px;">
+            <form id="cadastro-cliente-form">
+                <div class="form-group">
+                    <label for="nome">NOME</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite o nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">TELEFONE</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Digite o telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="Digite o CPF" required>
+                </div>
+                <div class="form-group">
+                    <label for="endereco">ENDEREÇO</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Digite o endereço completo" required>
+                </div>
+                <button type="submit" class="btn btn-custom btn-green">CADASTRAR</button>
+                <a href="index1.html" class="btn btn-custom btn-secondary mt-3">VOLTAR</a> 
+            </form>
+            <div id="mensagem" class="mt-4"></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
